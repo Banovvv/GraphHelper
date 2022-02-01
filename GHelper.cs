@@ -18,6 +18,14 @@ namespace GHelper
             return graphFolder.First();
         }
 
+        public static async Task<MailFolder> GetMailFolderByID(GraphServiceClient graphClient, string user, string folderID)
+        {
+            var graphFolder = await graphClient.Users[user].MailFolders[folderID]
+                                               .Request()
+                                               .GetAsync();
+            return graphFolder;
+        }
+
         public static async Task<string> GetMailFolderID(GraphServiceClient graphClient, string user, string folderName)
         {
             var graphFolder = await graphClient.Users[user].MailFolders.Inbox.ChildFolders
@@ -44,6 +52,21 @@ namespace GHelper
                                                  .Top(numberOfEmails)
                                                  .GetAsync();
             return inboxMessages;
+        }
+
+        public static async Task<IMailFolderMessagesCollectionPage> GetSpecificFolderEmails(GraphServiceClient graphClient, string user, string folderName)
+        {
+            var graphFolder = await graphClient.Users[user].MailFolders.Inbox.ChildFolders
+                                               .Request()
+                                               .Filter($"startsWith(displayName, '{folderName}')")
+                                               .GetAsync();
+            var emailFolderID = graphFolder.First().Id;
+
+            var folderMessages = await graphClient.Users[user].MailFolders[emailFolderID].Messages
+                                                 .Request()
+                                                 .Top(50)
+                                                 .GetAsync();
+            return folderMessages;
         }
 
         public static async Task SendExceptionEmail(GraphServiceClient graphClient, string user, string recipient, Exception ex)
