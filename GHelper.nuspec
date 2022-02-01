@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>GHelper</id>
+    <version>1.0.0</version>
+    <title>GHelper</title>
+    <authors>Ivan Gechev</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/Banovvv/GHelper/</projectUrl>
+    <description>A collection of Microsoft Graph Helper methoods related to MailFolders</description>
+    <releaseNotes>This is the initial package release</releaseNotes>
+    <copyright>Copyright © 2022 Ivan Gechev</copyright>
+    <tags>Microsoft Microsoft Graph Azure</tags>
+    <dependencies></dependencies>
+  </metadata>
+</package>
