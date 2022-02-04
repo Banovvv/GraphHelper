@@ -1,7 +1,7 @@
 # GHelper
 
 ## Summary
-This project is a collection of extension methods that aim to provide simpler means of obtaining some of the most used Graph functionalities
+This project is a collection of extension methods that aim to provide simpler means of obtaining some of the most used Graph functionalities, mostly related to MailFolders
 
 ## Status
 [![NuGet Badge](https://buildstats.info/nuget/GHelper)](https://www.nuget.org/packages/GHelper/)
@@ -43,8 +43,6 @@ dotnet add package GHelper --version 1.0.0
 ```
 
 ## License
-Code by Ivan Gechev.
-
 Copyright © 2022 Ivan Gechev.
 
 This package has MIT license. Refer to the [LICENSE](https://github.com/Banovvv/GHelper/blob/e2ca6eb3f858a887a7141b9442957cf6c76aaf3f/LICENSE) for detailed information.
