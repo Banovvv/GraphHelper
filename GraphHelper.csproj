@@ -7,8 +7,8 @@
     <ProjectGuid>{3430C033-F3F0-4FA0-8FB6-29EE0FC2D8A5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GHelper</RootNamespace>
-    <AssemblyName>GHelper</AssemblyName>
+    <RootNamespace>GraphHelper</RootNamespace>
+    <AssemblyName>GraphHelper</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -164,7 +164,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GHelper.cs" />
+    <Compile Include="GraphHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32014.148
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHelper", "GHelper.csproj", "{3430C033-F3F0-4FA0-8FB6-29EE0FC2D8A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphHelper", "GraphHelper.csproj", "{3430C033-F3F0-4FA0-8FB6-29EE0FC2D8A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

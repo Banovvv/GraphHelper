@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GHelper
+namespace GraphHelper
 {
-    public class GHelper
+    public class GraphHelper
     {
         /// <summary>
         /// This method returns a <see cref="Microsoft.Graph.MailFolder"/> by given a <see cref="string"/> <paramref name="folderName"/>
