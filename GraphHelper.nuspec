@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>GHelper</id>
-    <version>1.0.0</version>
-    <title>GHelper</title>
+    <id>GraphHelper</id>
+    <version>1.1.0</version>
+    <title>GraphHelper</title>
     <authors>Ivan Gechev</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <!-- <icon>icon.png</icon> -->
-    <projectUrl>https://github.com/Banovvv/GHelper/</projectUrl>
+    <projectUrl>https://github.com/Banovvv/GraphHelper/</projectUrl>
     <description>A collection of Microsoft Graph Helper methoods related to MailFolders</description>
     <releaseNotes>This is the initial package release</releaseNotes>
     <copyright>Copyright © 2022 Ivan Gechev</copyright>
