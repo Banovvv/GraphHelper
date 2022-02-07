@@ -1,4 +1,4 @@
-# GHelper
+# GraphHelper
 
 ## Summary
 This project is a collection of extension methods that aim to provide simpler means of obtaining some of the most used Graph functionalities, mostly related to MailFolders
