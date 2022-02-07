@@ -4,7 +4,7 @@
 This project is a collection of extension methods that aim to provide simpler means of obtaining some of the most used Graph functionalities, mostly related to MailFolders
 
 ## Status
-[![NuGet Badge](https://buildstats.info/nuget/GHelper)](https://www.nuget.org/packages/GHelper/)
+[![NuGet Badge](https://buildstats.info/nuget/GraphHelper)](https://www.nuget.org/packages/GraphHelper/1.1.0)
 
 ## Extension methods for Microsoft Graph types:
 - MailFolder
@@ -34,12 +34,12 @@ You can install the NuGet library into your project using:
 
 Package Manager:
 ```
-Install-Package GHelper -Version 1.0.0
+Install-Package GraphHelper -Version 1.1.0
 ```
 
 .NET CLI:
 ```
-dotnet add package GHelper --version 1.0.0
+dotnet add package GraphHelper --version 1.1.0
 ```
 
 ## License
