@@ -45,7 +45,7 @@ dotnet add package GraphHelper --version 1.1.0
 ## License
 Copyright © 2022 Ivan Gechev.
 
-This package has MIT license. Refer to the [LICENSE](https://github.com/Banovvv/GraphHelper/blob/e2ca6eb3f858a887a7141b9442957cf6c76aaf3f/LICENSE) for detailed information.
+This package has an MIT license. Refer to the [LICENSE](https://github.com/Banovvv/GraphHelper/blob/e2ca6eb3f858a887a7141b9442957cf6c76aaf3f/LICENSE) for detailed information.
 
 ## Questions, comments or additions
 If you have a feature request or bug report, [open a new Issue](https://github.com/Banovvv/GraphHelper/issues/new) or [send a Pull request](https://github.com/Banovvv/GraphHelper/pulls).
